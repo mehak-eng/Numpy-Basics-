@@ -58,11 +58,11 @@ h = np.array([[22,23],[56,77],[33,49],[12,8]])
 # i =np.array([[1,0,0],[0,1,0],[0,0,1]])
 # print(i)
 
-# identity_matrix = np.eye(3)
+# identity_matrix = np.identity(3)
 # print(identity_matrix)
     # part 3 
     # 10 num of even number from 0 to 100
-evenly_spaced = np.linspace(0, 100, 10)
+evenly_spaced = np.arange(0, 100, 10)
 print(evenly_spaced)
 
 # Ques 6
