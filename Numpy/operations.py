@@ -93,7 +93,11 @@ r = (v.reshape(3,2,2))
 
                                 #   SORT/ARRANGE ARRAYS
 l =np.array([8,2,5,1,7])
+# first method
 # firstly convert the original array to another varibale and then sort the variable ..sorting is on the original array 
 # why we transorm the original array to variable (only because Sort the list in ascending order and return None)
 n =l.sort()
 print(l)
+# second method
+# access the numpy method of sort
+print(np.sort(l)
