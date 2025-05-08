@@ -22,7 +22,7 @@ a = np.array([11 , 12 , 13])
 # we know that array holds same type of data so we put same type of data in arrays
 print(a) 
 
-# to find out the DIMENSIONS of data  (rows) of data  and 1D ARRAYS HAS 1 DIMENSION(1 ROW)
+# to find out the DIMENSIONS of data  dimension of an array can simply be defined as the number of subscripts or indices required to specify a particular element of the array  and 1D ARRAYS HAS 1 DIMENSION(1 ROW)
 print("Dimension is :"  + str(a.ndim)) 
 
 
